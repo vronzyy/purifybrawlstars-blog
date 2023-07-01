@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'https://www.youtube.com/@PurifyBrawlStars/';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'By Ron Hurwitz.';
+    : 'By Ron Hurwitz AKA Purify - Brawl Stars.';
 
   return {
     name,
